@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE temps SYSTEM "ac.dtd">
+<temps>
+    <!-- Primera entitat -->
+    <entitat id="AZ000000A">
+        <nom>Agencia Santbolana de meteorologia</nom>
+        <ubicacio>
+            <ciutat>Sant Boi</ciutat>
+            <provincia>Barcelona</provincia>
+        </ubicacio>
+        <prediccio data="2011-12-20">
+            <precipitacio>14</precipitacio>
+            <vent>
+                <direccio>NE</direccio>
+                <velocitat>77</velocitat>
+            </vent>
+        </prediccio>
+    </entitat>
+
+    <!-- Segona entitat amb 2 prediccions -->
+    <entitat id="AZ000000B">
+        <nom>Agencia Barcelonina de meteorologia</nom>
+        <ubicacio>
+            <ciutat>Barcelona</ciutat>
+            <provincia>Barcelona</provincia>
+        </ubicacio>
+        
+        <!-- Predicció 1 -->
+        <prediccio data="2011-12-21">
+            <precipitacio>5</precipitacio>
+            <vent>
+                <direccio>W</direccio>
+                <velocitat>45</velocitat>
+            </vent>
+        </prediccio>
+        
+        <!-- Predicció 2 -->
+        <prediccio data="2011-12-22">
+            <precipitacio>0</precipitacio>
+            <vent>
+                <direccio>NW</direccio>
+                <velocitat>20</velocitat>
+            </vent>
+        </prediccio>
+        
+    </entitat>
+</temps>

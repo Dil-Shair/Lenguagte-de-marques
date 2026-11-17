@@ -1,0 +1,15 @@
+<!ELEMENT temps (entitat+)>
+<!ELEMENT entitat (nom, ubicacio, prediccio+)>
+<!ELEMENT ubicacio (ciutat, provincia)>
+<!ELEMENT prediccio (precipitacio, vent)>
+<!ELEMENT vent (direccio, velocitat)>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT ciutat (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT precipitacio (#PCDATA)>
+<!ELEMENT direccio (#PCDATA)>
+<!ELEMENT velocitat (#PCDATA)>
+
+<!ATTLIST entitat id ID #REQUIRED>
+<!ATTLIST prediccio data NMTOKEN #REQUIRED>

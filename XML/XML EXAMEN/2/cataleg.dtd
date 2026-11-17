@@ -1,0 +1,10 @@
+<!ELEMENT cataleg (producte+)>
+<!ELEMENT producte (nom, imatge*, preu, etiqueta+, garantia?)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT imatge (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+<!ELEMENT etiqueta (#PCDATA)>
+<!ELEMENT garantia (#PCDATA)>
+<!ATTLIST producte codi ID #REQUIRED>
+<!ATTLIST producte disponible (si|no) "si">
+<!ATTLIST preu moneda (EUR|USD) "EUR">

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<curs data_inicial="" data_fi="" 
+            xmlns:numcurs="" 
+            xmlns:datapreins="" 
+            xmlns:datamat="" 
+            xmlns:numid="" >
+      <lloc></lloc>
+      <participants>
+      
+          <participant dni="">
+              <nom></nom>
+              <cognoms></cognoms>
+              <numcurs:matricula></numcurs:matricula>
+              <email></email>
+              <datapreins:data></datapreins:data>
+              
+              <vehicle num_chasis="">
+                  <datamat:data></datamat:data>
+                  <numid:matricula></numid:matricula>
+                  <marca></marca>
+                  <model></model>
+              </vehicle>
+              
+          </participant>
+      </participants>
+</curs>

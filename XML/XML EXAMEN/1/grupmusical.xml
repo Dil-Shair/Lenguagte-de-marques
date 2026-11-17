@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GrupMusical SYSTEM "grupmusical.dtd">
+<GrupMusical pais="America">
+      <NomGrup>JONS</NomGrup>
+      <EstilMusical tipus="rock" ></EstilMusical>
+      <AnyCreacio>1987</AnyCreacio>
+      
+      <Membres >
+          <Membre rol="teclista">
+              <NomMembre>Willy Billy</NomMembre>
+              <Instrument>Piano</Instrument>
+              <Edat>45</Edat>
+          </Membre>
+          
+          <Membre rol="guitarrista">
+              <NomMembre>Jon Jonas</NomMembre>
+              <Instrument>Guitara</Instrument>
+              <Edat>38</Edat>
+          </Membre>
+      </Membres>
+      
+      <Discografia>
+          <discos>
+              <disc durada="00:04:30">
+                  <Titol>Hell Fire</Titol>
+                  <AnyPublicacio>1991</AnyPublicacio>
+                  
+                  <canco>
+                      <NomCanco>Hellish Love</NomCanco>
+                      <Durada>00:04:30</Durada>
+                  </canco>
+                  
+                  <canco>
+                      <NomCanco>Hellish Love</NomCanco>
+                  </canco>
+                  
+              </disc>
+          </discos>
+      </Discografia>
+</GrupMusical>

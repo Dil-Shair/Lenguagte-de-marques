@@ -1,0 +1,29 @@
+<!ELEMENT GrupMusical (NomGrup, EstilMusical, AnyCreacio, Membres, Discografia?)>
+<!ELEMENT Membres (Membre+)>
+<!ELEMENT Membre (NomMembre, Instrument, Edat)>
+<!ELEMENT Discografia (Discos*)>
+
+
+<!ELEMENT NomGrup (#PCDATA)>
+<!ELEMENT EstilMusical (#PCDATA)>
+<!ELEMENT AnyCreacio (#PCDATA)>
+
+
+<!ELEMENT NomMembre (#PCDATA)>
+<!ELEMENT Instrument (#PCDATA)>
+<!ELEMENT Edat (#PCDATA)>
+
+
+<!ELEMENT discos (disc+)>
+<!ELEMENT disc (Titol, AnyPublicacio, canco+)>
+<!ELEMENT Titol (#PCDATA)>
+<!ELEMENT AnyPublicacio (#PCDATA)>
+<!ELEMENT canco (NomCanco, Durada?)>
+<!ELEMENT NomCanco (#PCDATA)>
+<!ELEMENT Durada (#PCDATA)>
+
+
+<!ATTLIST GrupMusical pais CDATA #REQUIRED "Desconegut">
+<!ATTLIST EstillMusical tipus (rock | pop | jazz | indie | electronic) "rock">
+<!ATTLIST Membre rol (vocalista | guitarrista | baixista | bateria | teclista | mombre) "membre">
+<!ATTLIST disc durada CDATA #IMPLIED>

@@ -1,0 +1,11 @@
+<!ELEMENT biblioteca (libro*)>
+<!ELEMENT libro (autor+, titulo, isbn?, estado)>
+<!ELEMENT autor (nombre, apellido, apellido?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT estado EMPTY>
+
+<!ATTLIST libro cod ID #REQUIRED>
+<!ATTLIST estado prestado (Si | No) "No">
